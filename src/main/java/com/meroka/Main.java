@@ -10,6 +10,7 @@ import com.meroka.utils.SharedUtils;
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import static spark.Spark.*;
@@ -23,11 +24,9 @@ public class Main {
         Hero hero= new Hero();
         Hero hero1= new Hero();
         Hero hero2= new Hero();
-        Strength strength1=new Strength();
+        Strength strength=new Strength();
 
         Squad squad=new Squad();
-
-        squadInfo.setSquad(squad);
         squad.setId(2);
         squad.setName("ninja turtles");
         squad.setCause("'fights'");
@@ -61,10 +60,16 @@ public class Main {
         hero.setSquad_id(2);
         hero.setDeleted(false);
 
-        strength1.setScore(0);
-        int weaknessScore=hero.getWeakness_id() + hero1.getWeakness_id() + hero2.getWeakness_id();
+        strength.setScore(0);
 
 
+        ArrayList<Hero> heroes = new ArrayList<Hero>();
+        heroes.add(hero);
+        heroes.add( hero1);
+        heroes.add( hero2);
+        squadInfo.setSquad(squad);
+        squadInfo.setHeroes(heroes);
+        squadInfo.setWeaknessScore(0);
         get("/", (req, res)->{
             return SharedUtils.render(new HashMap<>(), "index.hbs");
         });
@@ -77,11 +82,11 @@ public class Main {
             String name = req.queryParams("name");
             int score = Integer.parseInt(req.queryParams("score"));
 
-            Strength strength = new Strength();
-            strength.setScore(score);
-            strength.setName(name);
+            Strength strength1 = new Strength();
+            strength1.setScore(score);
+            strength1.setName(name);
 
-            StrengthDao.create(strength);
+            StrengthDao.create(strength1);
 
             res.redirect("/");
             return null;
