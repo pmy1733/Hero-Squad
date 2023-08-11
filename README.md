@@ -3,7 +3,7 @@
 Java/Spark Week 9/ 21: **Hero Squad:**
 ## Project description
 
-Java/Spark Week 10/ 20: Wildlife Tracker: **Wildlife Tracher**
+Java/Spark Week 10/ 20: Wildlife Tracker: **Hero Squad**
 ## Author(s) information
 
 **Pharminous Nyabuto:**  
