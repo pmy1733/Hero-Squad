@@ -1,11 +1,11 @@
 ## Hero Squad.
 ## Project description
 * The applications enable users to
-    * Add new squad 1
-    * Add new hero in the squad 2
-    * Add squad name, size and a cause 3
-    * View list of current squads 4
-    * View list of heroes in a squad 5
+    * Add new squad 
+    * Add new hero in the squad 
+    * Add squad name, size and a cause 
+    * View list of current squads 
+    * View list of heroes in a squad 
 ## Author(s) information
 **Pharminous Nyabuto:**  
 Experienced Software Engineer focused on the delivery of quality software solutions within budget and on time. Strong skills in Azure DevOps, QA (Manual and Automation), QC, Mobile, Desktop and Web technologies in development, production, deployment, and post-deployment of software. I am a visionary engineer driven by collaboration, passion, excellence, and integrity. Most recently I have been focusing on building pipelines, continuous integration, continuous delivery, deployment, microservice architecture, and the implementation of highly available and scalable automation solutions using DevOps
