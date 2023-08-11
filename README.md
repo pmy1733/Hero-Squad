@@ -60,10 +60,9 @@ https://github.com/pmy1733/Hero-Squad.git
 
 ## Technologies used
 
-* HTML
-* CSS
-* JavaScript
+* Gradle
 * Java
+* DAO
 ## Contact information
 
 * Phone: 0708098190
