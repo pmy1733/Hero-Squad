@@ -1,7 +1,7 @@
 ## Project name
 **Hero Squad:**
 ## Project description
-* The applications enable users to;
+* The applications enable users to 1
     1 Add a new squad 1
     2 Add a new hero in the squad 2
     3 Add a squad name , size and a cause 3
