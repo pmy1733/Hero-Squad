@@ -1,4 +1,4 @@
-## Project name :**Hero Squad:**
+## Hero Squad.
 ## Project description
 * The applications enable users to
     * Add new squad 1
