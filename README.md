@@ -18,46 +18,46 @@ https://github.com/pmy1733/Hero-Squad.git
 ## BDD.
 
 * Models
-    * Strength 1
-    * Weakness 2
-    * Squad 2
-    * Hero 4
+    * Strength 
+    * Weakness 
+    * Squad 
+    * Hero 
 
 * BDD
-    * Strength 1
-        * Create Strength 1
-        * List available strengths 2
-        * Update strength (name and score) 3
-        * Update strength details 4
-        * Delete strength 5
+    * Strength 
+        * Create Strength 
+        * List available strengths 
+        * Update strength (name and score)
+        * Update strength details
+        * Delete strength 
     * Weakness 2
-        * Create Weakness 1
-        * List available strengths  2
-        * Update Weakness (name and score) 3
-        * Update Weakness details 4
-        * Delete Weakness 5
+        * Create Weakness 
+        * List available strengths  
+        * Update Weakness (name and score) 
+        * Update Weakness details 
+        * Delete Weakness 
     *Squad 3
-        * Create Squad 1
-        * List available squads (all) 2
-        * List available squads (max_size not met) 3
-        * List squad details 4
-        * Including heroes in that squad 5
-        * Without heroes 6
-        * Squad score 7
-        * Update squad 8
-        * Update squad details 9
-        * Delete squad 10
+        * Create Squad 
+        * List available squads (all) 
+        * List available squads (max_size not met) 
+        * List squad details 
+        * Including heroes in that squad 
+        * Without heroes 
+        * Squad score 
+        * Update squad 
+        * Update squad details 
+        * Delete squad 
     * Hero 4
-        * Create hero 1
-        * Assign hero to a squad 2
-        * Assign strength to hero 3
-        * Assign weakness to hero 4
-        * List available heroes (all) 5
-        * List available heroes without a squad 6
-        * List hero details (of one hero to include strengths, weakness and squad they belong to) 7
-        * Update hero details 8
-        * Update hero details 9
-        * Delete hero 10
+        * Create hero 
+        * Assign hero to a squad 
+        * Assign strength to hero 
+        * Assign weakness to hero 
+        * List available heroes (all) 
+        * List available heroes without a squad 
+        * List hero details (of one hero to include strengths, weakness and squad they belong to) 
+        * Update hero details 
+        * Update hero details 
+        * Delete hero 
 
 ## Technologies used
 
