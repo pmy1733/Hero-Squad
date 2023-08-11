@@ -69,4 +69,4 @@ https://github.com/pmy1733/Hero-Squad.git
 * Phone: 0708098190
 * Email: pharminous@gmail.com
 ## License and Copyright information
-__(c) *pharminous Nyabuto*  @2022__
+__(c) *pharminous Nyabuto*  @2023__
