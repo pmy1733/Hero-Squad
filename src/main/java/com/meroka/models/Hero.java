@@ -1,4 +1,4 @@
-package com.gmaroko.models;
+package com.meroka.models;
 
 public class Hero {
     private int id;

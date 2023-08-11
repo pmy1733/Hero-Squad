@@ -1,8 +1,8 @@
-package com.gmaroko.dao;
+package com.meroka.dao;
 
-import com.gmaroko.config.DatabaseConfig;
-import com.gmaroko.models.Hero;
-import com.gmaroko.models.Squad;
+import com.meroka.config.DatabaseConfig;
+import com.meroka.models.Hero;
+import com.meroka.models.Squad;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 
@@ -11,7 +11,7 @@ import java.util.List;
 public class HeroDao {
     private static final Sql2o sql2o = DatabaseConfig.getDatabase();
 
-    public static void create(Hero hero){
+    public static void create(Hero hero) {
 
     }
 
@@ -23,11 +23,11 @@ public class HeroDao {
                     .executeAndFetch(Hero.class);
         } catch (Exception exception) {
             System.out.println(exception.getMessage());
-            return  null;
+            return null;
         }
     }
 
-    public static void assignHeroToSquad(int heroId, int squadId){
+    public static void assignHeroToSquad(int heroId, int squadId) {
         try (Connection connection = sql2o.open()) {
             String queryHeroes = "UPDATE heroes SET squad_id = :squadId WHERE id = :heroId;";
             connection.createQuery(queryHeroes)

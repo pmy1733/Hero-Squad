@@ -1,7 +1,7 @@
-package com.gmaroko.dto;
+package com.meroka.dto;
 
-import com.gmaroko.models.Hero;
-import com.gmaroko.models.Squad;
+import com.meroka.models.Hero;
+import com.meroka.models.Squad;
 
 import java.util.List;
 

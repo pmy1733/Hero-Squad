@@ -1,4 +1,4 @@
-package com.gmaroko.utils;
+package com.meroka.utils;
 
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
