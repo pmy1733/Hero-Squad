@@ -22,7 +22,7 @@ https://github.com/pmy1733/Hero-Squad.git
     * Squad
     * Hero
 
-*BDD
+# BDD
     * Strength
         * Create Strength
         * List available strengths
